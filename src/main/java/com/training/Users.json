@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Hi Aman! It's nice to meet you. How can I help you today?\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.066473891860560366
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6,
+    "candidatesTokenCount": 19,
+    "totalTokenCount": 25,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 19
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "2Bk4aM2oA_GX2PgPkrOi-Qg"
+}

@@ -13,10 +13,9 @@ public class ChatBot {
     public static void main(String[] args) throws Exception {
 
         Scanner sc = new Scanner(System.in);
-        String apiKey = ""; // replace with your Gemini API key
+        String apiKey = "Put your Key"; // replace with your Gemini API key
         String prompt="";
         HttpClient client = HttpClient.newHttpClient();
-
 
         while (!prompt.equalsIgnoreCase("quit"))
         {
